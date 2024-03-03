@@ -1,6 +1,7 @@
 import "./App.css";
-//import { DrawerDemo } from "./DrawerDemo";
-import LiftController from './LiftController'; // Adjust the path as necessary
+
+import LiftController from './LiftController';
+
 import {
   RecoilRoot,
 } from 'recoil';
