@@ -1,12 +1,9 @@
 import React, { useState } from "react";
-import Lift from "./Lift"; // Assume Lift.tsx is in the same directory
-//import { Button } from "./components/ui/button";
+import Lift from "./Lift"; 
 import { Badge } from "@/components/ui/badge";
 import { currentFloorState, liftDirectionStateAtom } from "./atoms/LiftState";
 import { useRecoilValue } from "recoil";
 import { Label } from "@/components/ui/label";
-
-//import { Display } from "react-7-segment-display";
 
 const LiftController: React.FC = () => {
   const [floor, setFloor] = useState(0);
